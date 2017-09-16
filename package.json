@@ -1,0 +1,37 @@
+{
+  "name": "ava-is-running",
+  "version": "1.0.0",
+  "description": "Very simple module that detect if process is started by AVA. Zero dependencies",
+  "main": "index.js",
+  "scripts": {
+    "version:major": "npm version major",
+    "version:minor": "npm version minor",
+    "version:patch": "npm version patch",
+    "postversion": "npm publish && git push && git push --tags",
+    "report": "nyc report --reporter=html",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabioricali/ava-is-running.git"
+  },
+  "keywords": [
+    "ava",
+    "running",
+    "detect",
+    "process",
+    "test",
+    "assert"
+  ],
+  "author": "Fabio Ricali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabioricali/ava-is-running/issues"
+  },
+  "homepage": "https://github.com/fabioricali/ava-is-running#readme",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "coveralls": "^2.13.1",
+    "nyc": "^11.2.1"
+  }
+}
