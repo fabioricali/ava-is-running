@@ -10,7 +10,7 @@ Very simple module that detect if process is started by AVA. Zero dependencies<b
 ## Installation
 
 ```
-npm install ava-is-running --save-dev
+npm install ava-is-running --save
 ```
 
 ## Example
