@@ -1,3 +1,3 @@
 module.exports = function () {
-    return process.env.hasOwnProperty('AVA_PATH');
+    return Object.prototype.hasOwnProperty.call(process.env, 'AVA_PATH');
 };
