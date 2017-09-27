@@ -1,6 +1,6 @@
 {
   "name": "ava-is-running",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Very simple module that detect if process is started by AVA. Zero dependencies",
   "main": "index.js",
   "scripts": {
